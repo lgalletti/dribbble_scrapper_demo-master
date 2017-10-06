@@ -1,140 +1,76 @@
+/* style.css */
 body{
-  background: white;
-  color: rgb(15,15,15);
-  font-size: 15px;
-  font-family: 'Open Sans', sans-serif;
+  background: #F0ECE9;
+  color: #000505;
+  font-size: 16px;
+  font-family: 'Roboto Condensed', sans-serif;
 }
 h1{
-  font-family: 'Montserrat', sans-serif;
-  color: white;
+  font-family: 'Slabo 27px', serif;
+  color: #3B3355;
   font-weight: lighter;
-  font-size: 60px;
+  font-size: 42px;
 }
-h1, h2, h3 {
-  font-family: 'Montserrat', sans-serif;
+h2 {
+  font-family: 'Slabo 27px', serif;
+  color: #523F72;
+  font-weight: bolder;
+  font-size: 24px;
 }
 a {
-  color: black;
-  text-decoration: none;
+  color: white;
 }
 a:hover {
   text-decoration: none;
-  color: #8F2425;
-}
-
-#footer a {
-  color: lightgrey;
-  font-size: 15px;
-}
-#footer a:hover {
   color: white;
+  font-family: 'Roboto Condensed', sans-serif;
 }
 
 #banner{
   text-align: center;
-  background-image: linear-gradient(-225deg, transparent 0%, rgba(0,0,0,0.5) 60%), url("images/bootcamp.gif");
+  background-image: url("https://static.pexels.com/photos/220118/pexels-photo-220118.jpeg");
   background-size: cover;
-  padding-top: 150px;
-  height: 100vh;
+  padding: 120px;
   color: white;
-
-}
-
-#gif{
-  text-align: center;
-  background-image: url("images/hello.gif");
-  background-size: cover;
-  padding: 30vw 0;
-  color: white;
-  overflow-y: hidden;
 }
 
 #banner h1 {
   color: white;
-  font-size: 50px;
-  font-weight: bolder;
-  text-shadow: 1px 1px 5px black;
-  padding-top: 30px;
+  font-size: 60px;
 }
+
 #banner p {
-  color: rgb(230,23);
+  color: white;
   opacity: 0.8;
-  font-size: 25px;
+  font-size: 26px;
   font-weight: lighter;
-  text-shadow: 1px 1px 5px black;
-  padding-bottom: 40px
 }
+
 #footer{
-  padding: 30px;
   background: rgb(30, 30, 30);
-  color: lightgrey;
+  color: white;
+  font-size: 16px;
+  background-color: #090B2A;
+  padding: 10px;
+  text-align: center;
 }
+
 .card{
-  padding: 70px 30px;
+  padding: 42px;
   font-weight: lighter;
   text-align: center;
 }
 
-.icon-size {
-  font-size: 50px;
-}
-
-.form-margin {
-  margin-top: 20px;
-}
-
-.btn-red {
-  color: white;
-  background-color: #D23333;
-}
-
-#wufoo-sx0l84z1iszo7g {
-  padding: 50px 30px;
-}
-
-.cta {
-  background-color: rgb(220,220,220);
-  padding: 50px;
+.card img {
+  height: 100px;
 }
 
 #footer a {
-  font-size: 30px;
+  color: white;
+  font-size: 24px;
+  padding: 10px;
 }
 
 #footer a:hover {
-  color: #D23333;
-}
-
-/*Search List style*/
-
-.card-list {
-  display: flex;
-  background-color: rgb(240, 240, 240);
-  overflow-wrap: normal;
-  padding: 30px 90px;
-}
-
-.card-list:hover {
-  background-color: rgb(230, 230, 230);
-}
-
-
-
-.card-list-text {
-flex: 1 1 70%;
-text-align: left;
-padding:0 20px;
-}
-
-.card-list-text p {
-font-weight: lighter
-}
-
-.card-list-text h6 {
-font-style: italic;
-margin-top: 30px;
-}
-
-.card-list-img {
-  flex: 0 1 auto;
+  color: #090B2A;
 }
